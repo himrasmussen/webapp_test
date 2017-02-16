@@ -2,7 +2,7 @@
 Tuples for GPU related checks.
 '''
 import random
-import helpers
+from application import helpers
 
 def main(csv_data):
     message = ''

@@ -6,7 +6,7 @@ Voltage checks.
 "The ripple limits, according to the ATX specification, are 120mV for the +12V and -12V rails, and 50mV for the remaining rails (5V, 3.3V and 5VSB).
 '''
 
-import helpers
+from application import helpers
 #TODO: So you'd need vcore, dram voltage, anything with a + in front of it such as +5v
 
 def main(csv_data):

@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, redirect, url_for
 from werkzeug.utils import secure_filename
-import hwinfo_analyze as hwinfo
+from . import hwinfo_analyze as hwinfo
 
 UPLOAD_FOLDER = 'uploads'
 ANALYSIS_FOLDER = 'analysis'
