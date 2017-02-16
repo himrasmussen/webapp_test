@@ -1,4 +1,8 @@
 from flask import Flask
-app = Flask(__name__)
+application = Flask(__name__)
+application.config.from_object('config')
 
-import application.views
+from application import views
+
+if __name-_ == "__main__":
+    application.run()
